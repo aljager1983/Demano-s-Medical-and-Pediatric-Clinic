@@ -1,0 +1,7 @@
+{
+  "name": "Demano's Medical & Pediatric Clinic",
+  "description": "High-converting, mobile-first website for a provincial healthcare facility in Ramon, Isabela, Philippines.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
