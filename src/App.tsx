@@ -93,9 +93,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
+            {/* <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl"> */}
               <img src={clinicLogo} width={450} height={450} alt="clinic logo" /> 
-            </div>
+            {/* </div> */}
             <div>
               <h1 className="text-sm sm:text-lg font-bold leading-tight text-slate-900">DEMANO'S CLINIC</h1>
               <p className="text-[10px] sm:text-xs text-slate-500 font-medium uppercase tracking-wider">Medical & Pediatric</p>
