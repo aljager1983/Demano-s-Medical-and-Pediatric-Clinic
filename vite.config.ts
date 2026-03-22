@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
-  base: '/Demano-s-Medical-and-Pediatric-Clinic/';
+  // base: '/Demano-s-Medical-and-Pediatric-Clinic/';
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
